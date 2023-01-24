@@ -1,2 +1,2 @@
 # ctween
-[Tween Plus](https://github.com/Ryn503/tween_plus) but made in C.
+[Tween Plus](https://github.com/Ryn503/tween_plus) in C just for testing.
