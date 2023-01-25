@@ -69,6 +69,12 @@ static void* Tween_update(void* arg)
     }
 
     tween->running = false;
+
+    for (int i = 0; i < tween->tweeners_count; i++)
+    {
+        free(tween->tweeners[i]);
+    }
+
     free(tween->tweeners);
     free(tween);
 }
